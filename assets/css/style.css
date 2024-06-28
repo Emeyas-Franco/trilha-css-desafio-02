@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.menu {
+    width: 97vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu > .left, .right {
+    width: 146px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#main {
+    width: 96vw;
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+#watchingVideo {
+    width: 67%;
+    margin: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#watchingVideo > .video {
+    width: 100%;
+}
+
+.watchingVideo {
+    width: 98%;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.channelInfos {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.info > p {
+    margin: 0;
+}
+
+.btnInscreva {
+    background-color: red;
+    border: 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    width: 159px;
+    height: 40px;
+}
+
+.watchingVideo > img {
+    height: 24px;
+}
+
+.description {
+    width: 50%;
+}
+
+#sugestion {
+    width: 25%;
+    height: 100vh;
+}
+
+.sugestVideo {
+    display: flex;
+}
+
+.thumbs {
+    flex-shrink: 2;
+}
+
+.thumbs > img {
+    margin: 10px;
+}
+
+.videoDescription {
+    flex-shrink: 4;
+}
+
+.videoDescription > p, h4 {
+    margin: 10px;
+    font-size: .8rem;
+}
